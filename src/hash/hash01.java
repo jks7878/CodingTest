@@ -3,7 +3,7 @@ package hash;
 import java.util.HashMap;
 import java.util.Map;
 
-//완주하지 못한 선수
+// 프로그래머스 해시 레벨1 완주하지 못한 선수
 public class hash01 {
 	public static String solution(String[] participant, String[] completion) {
 		String answer = "";

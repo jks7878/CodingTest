@@ -3,6 +3,7 @@ package hash;
 import java.util.HashMap;
 import java.util.Map;
 
+// 프로그래머스 해시 레벨2 위장
 public class hash03 {
 	// 경우의 수 문제
 	public static int solution(String[][] clothes) {
