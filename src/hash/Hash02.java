@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.HashMap;
 
 // 프로그래머스 해시 레벨2 전화번호 목록
-public class hash02 {
+public class Hash02 {
 	public static boolean solution(String[] phone_book) {
 		boolean answer = true;
 		

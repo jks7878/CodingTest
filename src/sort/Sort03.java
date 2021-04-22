@@ -8,7 +8,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 // 프로그래머스 정렬 레벨2 H-Index
-public class sort03 {
+public class Sort03 {
 	public static int solution(int[] citations) {	
 		int answer = 0;
 		List<Integer> temp = new ArrayList<Integer>();

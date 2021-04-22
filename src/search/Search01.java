@@ -2,12 +2,10 @@ package search;
 
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 
 // 프로그래머스 완전탐색 레벨1 모의고사 
-public class search01 {
+public class Search01 {
 	public static int[] solution(int[] answers) {
 		int[] answer = {};
 		
@@ -65,7 +63,7 @@ public class search01 {
 	public static void main(String[] args) {
 		// 테스트 케이스
 //		int[] answers = {5,4,4,2,1}; // = []
-//		int[] answers = {1,2,3,4,5}; // = [1]		
+//		int[] answers = {1,2,3,4,5}; // = [1]	
 		int[] answers = {2,1,2,3,2}; // = [2]
 //		int[] answers = {3,3,1,1,2}; // = [3]
 //		int[] answers = {1,2,2,3,4}; // = [1,2]

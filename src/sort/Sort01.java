@@ -3,7 +3,7 @@ package sort;
 import java.util.Arrays;
 
 // 프로그래머스 정렬 레벨 1 K번째 수
-public class sort01 {
+public class Sort01 {
 	public static void main(String[] args) {
 		// 테스트 케이스
 		int[] array = {1, 5, 2, 6, 3, 7, 4};

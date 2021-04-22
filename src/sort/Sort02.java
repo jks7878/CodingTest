@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.Comparator;
 
 // 프로그래머스 정렬 레벨2 가장 큰 수
-public class sort02 {
+public class Sort02 {
 	public static String solution(int[] numbers) {
 		String answer = "";
 		String[] temp = new String[numbers.length];
