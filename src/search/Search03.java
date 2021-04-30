@@ -24,8 +24,8 @@ public class Search03 {
 	}
 	public static void main(String[] args) {
 		// 테스트 케이스
-		int brown = 8;
-		int yellow = 1;
+		int brown = 24;
+		int yellow = 24;
 		
 		int[] answer = solution(brown, yellow);
 		

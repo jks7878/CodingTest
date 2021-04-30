@@ -1,4 +1,4 @@
-package stackAndQue;
+package stack_que;
 
 // 프로그래머스 스택/큐 레벨2 주식가격
 public class SaQ02 {
