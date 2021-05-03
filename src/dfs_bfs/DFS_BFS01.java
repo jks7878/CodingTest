@@ -10,7 +10,6 @@ public class DFS_BFS01 {
         return i == 1 ? 1 : -1;
     }
     public static int bfs(int[] numbers, int target, int sum, int i) {
-    	System.out.println(i + "번째 시작");
     	System.out.println(sum);
         if(i == numbers.length) {
             if(sum == target) {
@@ -23,7 +22,6 @@ public class DFS_BFS01 {
         int result = 0;
 
         result += bfs(numbers, target, sum+numbers[i], i+1);
-        System.out.println(i + "번째로 돌아감");
         result += bfs(numbers, target, sum-numbers[i], i+1);
 
         return result;
@@ -62,8 +60,8 @@ public class DFS_BFS01 {
     
 	public static void main(String[] args) {
 		// 테스트 케이스
-		int[] numbers = {1, 2, 3};
-		int target = 2;
+		int[] numbers = {1, 1, 1, 1, 1};
+		int target = 3;
 		
 		int answer = solution(numbers, target);
 		System.out.println("경우의 수 : " + answer);
